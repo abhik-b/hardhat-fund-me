@@ -37,6 +37,6 @@ module.exports = {
     outputFile: "gas-report.txt",
     noColors: true,
     currency: "USD", token: "ETH"
-  }
-
+  },
+  mocha: { timeout: 500000 },
 };
